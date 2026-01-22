@@ -9,7 +9,6 @@ Q_blockchain_DAO_APP is a DAO platform that lets token holders create proposals,
 - Create proposals
 - Token-weighted voting (on-chain)
 - Execution of successful proposals (on-chain)
-- Frontend UI to propose, vote, and view DAO state
 - Local development and automated testing for smart contracts
 
 ## Architecture
@@ -34,3 +33,4 @@ npm install
 Create a `.env` from `.env.example` and fill in the values
  
 > Never commit real private keys or secrets to version control. Use a vault or CI secrets for production.
+
